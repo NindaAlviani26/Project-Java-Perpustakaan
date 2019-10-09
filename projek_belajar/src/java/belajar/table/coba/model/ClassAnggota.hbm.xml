@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="belajar.table.coba.model.ClassAnggota" table="anggota">
+        <id name="no" column="no" type="string">
+            <generator class="assigned"></generator>
+        </id>
+        <property name="nama" column="nama"></property>
+        <property name="jurusan" column="jurusan"></property>
+        <property name="alamat" column="alamat"></property>
+    </class>
+  
+
+</hibernate-mapping>
